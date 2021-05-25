@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\LaravelClickHouse\Tests;
+namespace Allesx\LaravelClickHouse\Tests;
 
-use Bavix\LaravelClickHouse\Database\Eloquent\Model;
+use Allesx\LaravelClickHouse\Database\Eloquent\Model;
 
 /**
  * @property int id

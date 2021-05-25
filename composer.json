@@ -1,5 +1,5 @@
 {
-  "name": "bavix/laravel-clickhouse",
+  "name": "allesx/laravel-clickhouse",
   "description": "Eloquent model for ClickHouse",
   "type": "library",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^7.2|^8.0",
-    "laravel/framework": "^6.0|^7.0|^8.0",
+    "laravel/framework": "^5.5|^6.0|^7.0|^8.0",
     "the-tinderbox/clickhouse-builder": "^4.0",
     "ext-json": "*"
   },
@@ -19,23 +19,21 @@
     "phpunit/phpunit": "^8.0|^9.0",
     "mockery/mockery": "^1.3",
     "fakerphp/faker": "^1.9",
-    "bavix/clickhouse-php-client": "^3.0",
-    "bavix/clickhouse-builder": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "Bavix\\LaravelClickHouse\\": "src/"
+      "Allesx\\LaravelClickHouse\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bavix\\LaravelClickHouse\\Tests\\": "tests/"
+      "Allesx\\LaravelClickHouse\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Bavix\\LaravelClickHouse\\ClickHouseServiceProvider"
+        "Allesx\\LaravelClickHouse\\ClickHouseServiceProvider"
       ]
     }
   },

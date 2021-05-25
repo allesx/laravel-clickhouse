@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\LaravelClickHouse\Database\Eloquent;
+namespace Allesx\LaravelClickHouse\Database\Eloquent;
 
 use BadMethodCallException;
-use Bavix\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
+use Allesx\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 use Closure;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Contracts\Support\Arrayable;

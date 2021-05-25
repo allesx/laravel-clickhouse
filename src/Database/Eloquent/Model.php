@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\LaravelClickHouse\Database\Eloquent;
+namespace Allesx\LaravelClickHouse\Database\Eloquent;
 
 use ArrayAccess;
-use Bavix\LaravelClickHouse\Database\Connection;
-use Bavix\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
+use Allesx\LaravelClickHouse\Database\Connection;
+use Allesx\LaravelClickHouse\Database\Query\Builder as QueryBuilder;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Database\ConnectionResolverInterface;
@@ -38,7 +38,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      *
      * @var string
      */
-    protected $connection = 'bavix::clickhouse';
+    protected $connection = 'allesx::clickhouse';
 
     /**
      * The table associated with the model.

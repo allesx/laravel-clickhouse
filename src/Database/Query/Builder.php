@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\LaravelClickHouse\Database\Query;
+namespace Allesx\LaravelClickHouse\Database\Query;
 
-use Bavix\LaravelClickHouse\Database\Connection;
+use Allesx\LaravelClickHouse\Database\Connection;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\Macroable;

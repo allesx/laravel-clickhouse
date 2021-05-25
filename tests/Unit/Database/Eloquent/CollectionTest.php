@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\LaravelClickHouse\Tests\Unit\Database\Eloquent;
+namespace Allesx\LaravelClickHouse\Tests\Unit\Database\Eloquent;
 
-use Bavix\LaravelClickHouse\Database\Connection;
-use Bavix\LaravelClickHouse\Database\Eloquent\Collection;
-use Bavix\LaravelClickHouse\Tests\EloquentModelCastingTest;
-use Bavix\LaravelClickHouse\Tests\Helpers;
+use Allesx\LaravelClickHouse\Database\Connection;
+use Allesx\LaravelClickHouse\Database\Eloquent\Collection;
+use Allesx\LaravelClickHouse\Tests\EloquentModelCastingTest;
+use Allesx\LaravelClickHouse\Tests\Helpers;
 use Carbon\Carbon;
 use Illuminate\Database\DatabaseManager;
 use Mockery\Mock;
