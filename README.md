@@ -1,10 +1,5 @@
 # Laravel Clickhouse
 
-[![Build Status](https://travis-ci.org/allesx/laravel-clickhouse.svg?branch=master)](https://travis-ci.org/allesx/laravel-clickhouse)
-[![StyleCI](https://styleci.io/repos/269384604/shield?branch=master)](https://styleci.io/repos/269384604)
-[![Coverage Status](https://coveralls.io/repos/github/allesx/laravel-clickhouse/badge.svg)](https://coveralls.io/github/allesx/laravel-clickhouse)
-
-[![Package Rank](https://phppackages.org/p/allesx/laravel-clickhouse/badge/rank.svg)](https://packagist.org/packages/allesx/laravel-clickhouse)
 [![Latest Stable Version](https://poser.pugx.org/allesx/laravel-clickhouse/v/stable)](https://packagist.org/packages/allesx/laravel-clickhouse)
 [![Latest Unstable Version](https://poser.pugx.org/allesx/laravel-clickhouse/v/unstable)](https://packagist.org/packages/allesx/laravel-clickhouse)
 [![License](https://poser.pugx.org/allesx/laravel-clickhouse/license)](https://packagist.org/packages/allesx/laravel-clickhouse)
@@ -15,15 +10,10 @@ Laravel Clickhouse - Eloquent model for ClickHouse.
 * **Vendor**: allesx
 * **Package**: Laravel Clickhouse
 * **Version**: [![Latest Stable Version](https://poser.pugx.org/allesx/laravel-clickhouse/v/stable)](https://packagist.org/packages/allesx/laravel-clickhouse)
-* **Laravel Version**: `5.x`, `6.x`, `7.x`, `8.x`
-* **PHP Version**: 7.2+
+* **Laravel Version**: `5.8.x`
+* **PHP Version**: 7.1.3+
 * **[Composer](https://getcomposer.org/):** `composer require allesx/laravel-clickhouse`
 
-> :warning: If you are using php 8 and `the-tinderbox/clickhouse-*` author hasn't added support yet, then connect mine.
-> 
-> composer req allesx/clickhouse-php-client
-> 
-> composer req allesx/clickhouse-builder
 
 ## Get started
 ```sh
